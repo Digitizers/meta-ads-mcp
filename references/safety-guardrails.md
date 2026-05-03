@@ -27,4 +27,8 @@ INCORRECT: Any delete operation on live or historical campaign entities
 | For special ad categories (housing, credit, employment, political) — **declare them** | Non-declared special categories can cause account suspension |
 
 ### Account Health Rules
-- Maintain **ad account policy compliance** — avoid prohibited con
+- Maintain **ad account policy compliance** — avoid prohibited content in any ad
+- If an ad is **rejected**, review the policy reason before resubmitting. Don't just re-upload identical creative.
+- If an **account is flagged or restricted**, immediately contact Meta Business Support — do not attempt workarounds
+- Keep **payment method verified** and up to date
+- **Verify identity** in Business Manager to unlock full capabilities
