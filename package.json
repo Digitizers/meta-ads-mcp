@@ -1,0 +1,61 @@
+{
+  "name": "meta-ads-mcp",
+  "version": "1.0.0",
+  "description": "Operational OpenClaw skill for safe Meta/Facebook/Instagram ad campaign planning, creation, tracking, optimization, and documentation via Facebook Ads MCP.",
+  "private": true,
+  "main": "meta-ads-mcp/SKILL.md",
+  "keywords": [
+    "openclaw",
+    "openclaw-skill",
+    "mcp",
+    "meta-ads",
+    "facebook-ads",
+    "instagram-ads",
+    "paid-media",
+    "campaign-management",
+    "retargeting",
+    "pixel",
+    "capi",
+    "marketing-ops"
+  ],
+  "author": "Ben Kalsky <ben@digitizer.co.il> (https://digitizer.co.il)",
+  "license": "MIT-0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Digitizers/meta-ads-mcp.git"
+  },
+  "homepage": "https://github.com/Digitizers/meta-ads-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/Digitizers/meta-ads-mcp/issues"
+  },
+  "engines": {
+    "openclaw": ">=2026.2.0"
+  },
+  "openclaw": {
+    "type": "skill",
+    "category": "marketing",
+    "skillDirectory": "meta-ads-mcp",
+    "tags": [
+      "meta-ads",
+      "facebook-ads",
+      "instagram-ads",
+      "mcp",
+      "paid-media",
+      "campaigns",
+      "retargeting",
+      "pixel",
+      "capi"
+    ]
+  },
+  "files": [
+    "meta-ads-mcp/SKILL.md",
+    "meta-ads-mcp/references/**/*.md",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE.txt"
+  ],
+  "scripts": {
+    "test": "python3 scripts/validate-skill.py",
+    "pack:skill": "cd meta-ads-mcp && zip -r ../meta-ads-mcp-${npm_package_version}.zip ."
+  }
+}
