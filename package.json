@@ -56,6 +56,6 @@
   ],
   "scripts": {
     "test": "python3 scripts/validate-skill.py",
-    "pack:skill": "cd meta-ads-mcp && zip -r ../meta-ads-mcp-${npm_package_version}.zip ."
+    "pack:skill": "cd meta-ads-mcp && python3 -m zipfile -c ../meta-ads-mcp-${npm_package_version}.zip ."
   }
 }
