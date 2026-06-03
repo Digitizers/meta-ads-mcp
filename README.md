@@ -1,11 +1,13 @@
-# meta-ads-mcp
+# Meta Ads MCP — Claude Code & OpenClaw Skill
 
 [![CI](https://github.com/Digitizers/meta-ads-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/Digitizers/meta-ads-mcp/actions/workflows/ci.yml)
+![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-d97757)
 ![OpenClaw Skill](https://img.shields.io/badge/OpenClaw-Skill-purple)
-![Meta Ads](https://img.shields.io/badge/Meta-Ads-blue)
+![Meta Ads](https://img.shields.io/badge/Meta-Ads-1877f2)
 ![License: MIT--0](https://img.shields.io/badge/License-MIT--0-green)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
-A practical OpenClaw skill for planning, creating, managing, optimizing, and documenting Meta/Facebook/Instagram ad campaigns through the Facebook Ads MCP — with safety-first defaults for real ad accounts and real budgets.
+A practical **Claude Code & OpenClaw skill** for planning, creating, managing, optimizing, and documenting Meta/Facebook/Instagram ad campaigns through the Facebook Ads MCP — with safety-first defaults for real ad accounts and real budgets.
 
 This is not just a tool reference. It is an operational playbook for running Meta Ads responsibly: intake, account checks, campaign structure, budgets, audiences, creative, tracking, retargeting, KPIs, documentation, and non-negotiable safety guardrails.
 

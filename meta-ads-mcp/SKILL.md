@@ -3,7 +3,7 @@ name: meta-ads-mcp
 version: 1.0.0
 license: MIT-0
 description: >
-  Operational guide for creating, managing, optimizing, and documenting Meta
+  Production-grade operational guide for creating, managing, optimizing, and documenting Meta
   (Facebook/Instagram) ad campaigns via the Facebook Ads MCP. Use whenever the
   user mentions Facebook ads, Instagram ads, Meta campaign planning, budgets,
   audiences, retargeting, ad performance, Pixel/CAPI tracking, creative briefs,
