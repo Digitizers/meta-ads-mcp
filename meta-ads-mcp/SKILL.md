@@ -1,12 +1,12 @@
 ---
 name: meta-ads-mcp
-version: 1.0.0
+version: 1.1.0
 license: MIT-0
 description: >
   Production-grade operational guide for creating, managing, optimizing, and documenting Meta
   (Facebook/Instagram) ad campaigns via the Facebook Ads MCP. Use whenever the
-  user mentions Facebook ads, Instagram ads, Meta campaign planning, budgets,
-  audiences, retargeting, ad performance, Pixel/CAPI tracking, creative briefs,
+  user mentions Facebook ads, Instagram ads, Meta campaign planning, ad budgets/spend,
+  ad audiences (incl. Custom Audiences), retargeting, ad performance, Pixel/CAPI tracking, creative briefs,
   naming conventions, campaign documentation, or safe MCP-based campaign
   operations.
 ---
@@ -14,6 +14,16 @@ description: >
 # Meta Ads MCP — Operational Guide
 
 > **Scope**: How to create, manage, update, pause, and document Meta (Facebook/Instagram) ad campaigns using the Facebook Ads MCP. Covers account setup, campaign architecture, targeting, creative, tracking, retargeting, documentation, and safety guardrails.
+
+## Scope & external dependencies
+
+This skill is the **operational workflow** for Meta Ads MCP (campaigns, budgets, audiences, tracking, documentation). It intentionally hands three things to systems outside its own scope — be aware these cross trust boundaries:
+
+- **Google Drive** — suggested for storing creative assets and per-campaign docs. That is your organization's Drive, not part of this skill; substitute your own asset store if preferred.
+- **facebook-ads skill** — full ad-copy generation (variations, headlines, CTAs).
+- **flux-imagegen skill** — ad-creative image generation.
+
+Use them as needed, but treat any data leaving Meta Ads MCP (to Drive or another skill) under your own data-handling rules.
 
 ## How to use this skill
 

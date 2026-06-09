@@ -5,7 +5,7 @@
 ![OpenClaw Skill](https://img.shields.io/badge/OpenClaw-Skill-purple)
 ![Meta Ads](https://img.shields.io/badge/Meta-Ads-1877f2)
 ![License: MIT--0](https://img.shields.io/badge/License-MIT--0-green)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.0-blue)
 
 A practical **Claude Code & OpenClaw skill** for planning, creating, managing, optimizing, and documenting Meta/Facebook/Instagram ad campaigns through the Facebook Ads MCP — with safety-first defaults for real ad accounts and real budgets.
 
@@ -38,7 +38,7 @@ Repository-only files such as this README, changelog, license, CI, validation sc
 
 ## Version
 
-Current version: **1.0.0**
+Current version: **1.1.0**
 
 ## Installation
 
