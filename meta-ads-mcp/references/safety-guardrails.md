@@ -32,3 +32,11 @@ INCORRECT: Any delete operation on live or historical campaign entities
 - If an **account is flagged or restricted**, immediately contact Meta Business Support — do not attempt workarounds
 - Keep **payment method verified** and up to date
 - **Verify identity** in Business Manager to unlock full capabilities
+
+## Data & privacy (non-negotiable)
+
+- Never upload customer email/phone, or send PII via CAPI, without a documented lawful basis and consent.
+- Always SHA‑256 hash email/phone before transmission — never plaintext.
+- Minimize data; honor opt-outs and right-to-be-forgotten; maintain suppression lists.
+- Operate under Meta's Data Processing Terms; account for EU/UK data-residency.
+- Special ad categories (housing, employment, credit, social/political issues) carry extra targeting and privacy restrictions — confirm eligibility and rules before launching.

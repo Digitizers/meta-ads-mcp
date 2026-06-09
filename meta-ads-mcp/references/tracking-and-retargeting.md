@@ -30,7 +30,7 @@ Deduplication: Both send same event_id → Meta counts it once
 - [ ] Purchase / Lead event fires correctly on conversion page
 - [ ] CAPI events are sending (check Events Manager → Aggregated Event Measurement)
 - [ ] Deduplication is working (no doubled events in Events Manager)
-- [ ] EMQ score is 7+/10 (improve by sending email/phone in event parameters)
+- [ ] EMQ score is 7+/10 — improve by sending **hashed** email/phone in event parameters. **PII: requires a documented lawful basis, consent, and SHA‑256 hashing before transmission (see budget-and-audience.md → "Privacy & compliance").**
 - [ ] Attribution window set to: 7-day click, 1-day view
 
 ---

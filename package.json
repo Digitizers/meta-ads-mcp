@@ -1,6 +1,6 @@
 {
   "name": "meta-ads-mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Operational OpenClaw skill for safe Meta/Facebook/Instagram ad campaign planning, creation, tracking, optimization, and documentation via Facebook Ads MCP.",
   "private": true,
   "main": "meta-ads-mcp/SKILL.md",

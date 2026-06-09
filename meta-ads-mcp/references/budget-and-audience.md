@@ -48,6 +48,18 @@
 - Exclude purchasers from add-to-cart retargeting
 - Use Meta's **Audience Overlap tool** to check for cannibalization
 
+### Privacy & compliance (before any customer-data upload)
+
+Customer-list Custom Audiences and PII in CAPI event parameters (email, phone) are regulated personal data. Before uploading or transmitting:
+
+- **Lawful basis & consent** — document a lawful basis (consent / contract / legitimate interest) under GDPR / CCPA / PIPEDA, and ensure your privacy policy covers Meta ad targeting.
+- **Hash before sending** — email and phone must be SHA‑256 hashed (normalized: lowercase + trimmed; phone in E.164) before they leave your systems. Never send plaintext PII.
+- **Data minimization** — upload only the fields you need; do not bulk-export full CRM records.
+- **Suppression** — honor opt-outs and right-to-be-forgotten; refresh suppression lists.
+- **DPA & residency** — operate under Meta's Data Processing Terms; account for EU/UK data-residency obligations.
+
+Do not upload customer PII without explicit sign-off from whoever owns data/privacy compliance.
+
 ### Custom Audiences to Build and Maintain
 1. Website visitors (30 / 60 / 90 / 180 days)
 2. Video viewers by percentage (25% / 50% / 75%)
