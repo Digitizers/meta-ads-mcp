@@ -2,8 +2,5 @@
   "name": "meta-ads-mcp",
   "displayName": "Meta Ads MCP",
   "description": "Operational guide for the Meta (Facebook/Instagram) Ads MCP — campaign inspection, audience and budget analysis, and safe write-gating.",
-  "author": {
-    "name": "Ben Kalsky",
-    "email": "benkalsky@gmail.com"
-  }
+  "author": { "name": "Digitizer" }
 }
