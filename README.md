@@ -62,16 +62,13 @@ source). On Windows, enable Developer Mode and set
 the plugin cache clone inherits it. Changing the config does not repair an
 existing checkout (the repo may have recorded `core.symlinks=false` locally).
 To repair one, run these two commands inside it (the second re-materializes
-the plugin's symlink entries inside those directories — the directories
-themselves are ordinary trees — so nothing else in your working tree is
-touched):
+the repository's two symlink entries, so nothing else in your working
+tree is touched):
 
     git config core.symlinks true
-    git checkout -- skills/ .claude/skills/
+    git checkout -- skills/meta-ads-mcp .claude/skills/meta-ads-mcp
 
 Or simply re-clone. WSL also works. macOS/Linux need nothing.
-
-(Both paths ARE symlinks in this repo, so the two-path checkout is correct and safe here.)
 
 ## What This Skill Helps With
 
