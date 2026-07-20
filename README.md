@@ -54,6 +54,14 @@ openclaw skills install meta-ads-mcp
 cp -R meta-ads-mcp ~/.openclaw/workspace/skills/meta-ads-mcp
 ```
 
+### Windows note
+
+The plugin ships its skill through a git **symlink** (`skills/` → the in-repo
+source). Cloning with `core.symlinks=false` — the default on many Windows
+setups — turns that link into a plain text file and the skill will not load.
+Before installing on Windows, enable Developer Mode and run
+`git config --global core.symlinks true`, or use WSL. macOS/Linux need nothing.
+
 ## What This Skill Helps With
 
 ### 1. Pre-Campaign Planning
