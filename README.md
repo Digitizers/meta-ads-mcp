@@ -62,7 +62,8 @@ source). On Windows, enable Developer Mode and set
 the plugin cache clone inherits it. Changing the config does not repair an
 existing checkout (the repo may have recorded `core.symlinks=false` locally).
 To repair one, run these two commands inside it (the second re-materializes
-only the plugin's symlink entries, so nothing else in your working tree is
+the plugin's symlink entries inside those directories — the directories
+themselves are ordinary trees — so nothing else in your working tree is
 touched):
 
     git config core.symlinks true
